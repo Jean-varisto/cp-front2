@@ -40,7 +40,7 @@ function adicionarCard(dados) {
     <p class="temp">${chama.temporadas}</p>
     <p class="text">${chama.descricao}</p>
     </div> `
-        card.setAttribute("class", "cards");
+        card.setAttribute("class", "card");
         cardc.appendChild(card);
 
         // div.addEventListener('click', ()=>{ div.remove()})
